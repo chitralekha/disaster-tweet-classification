@@ -1,15 +1,34 @@
-# disaster-tweet-classification
-Deep learning project for classifying tweets as disaster-related or not using natural language processing (NLP) techniques. Built using Keras with Bidirectional LSTM, trained on Kaggle’s disaster tweets dataset. Includes preprocessing, model tuning, evaluation, and Kaggle leaderboard submission.
-## Project Overview
+# Disaster Tweet Classification (Week 4 NLP Project - 5511)
 
-This project applies natural language processing and deep learning to classify tweets as related to real disasters or not. The model uses a Bidirectional LSTM architecture with Keras, trained on the Kaggle "Natural Language Processing with Disaster Tweets" dataset.
+This repository contains the files and deliverables for the Week 4 mini-project from the "Natural Language Processing" module (DTSA 5511) in the MSDS program at CU Boulder. The project involved building a model to classify tweets as related to real disasters or not.
 
-Key components include:
-- Data cleaning and preprocessing
+## 🔍 Problem Description
+The goal was to apply natural language processing techniques to classify tweets as disaster-related (label `1`) or not (label `0`). The challenge was based on a real Kaggle competition: [NLP with Disaster Tweets](https://www.kaggle.com/competitions/nlp-getting-started).
+
+## 📁 Repository Contents
+
+| File Name             | Description                                                                 |
+|-----------------------|-----------------------------------------------------------------------------|
+| `week4-nlp.ipynb`     | The full Jupyter Notebook with data cleaning, EDA, model development, results, and analysis. |
+| `week4-nlp.pdf`       | Exported PDF version of the notebook for submission.                        |
+| `submission (1).csv`  | Final CSV file submitted to Kaggle containing predictions on the test set.  |
+| `5511-week4.png`      | Screenshot of the Kaggle leaderboard showing the public score and rank.     |
+
+## 📊 Techniques Used
+- Text preprocessing (lowercasing, punctuation removal, stopword filtering)
 - Tokenization and padding
-- Word embedding via Keras Embedding layer
-- Bidirectional LSTM-based sequential model
-- Hyperparameter tuning and early stopping
-- Submission to Kaggle for evaluation
+- Trainable word embeddings (Keras `Embedding` layer)
+- Bidirectional LSTM architecture
+- Model tuning with early stopping and validation loss monitoring
+- Evaluation using Kaggle leaderboard (public score: **0.74256**)
 
-A final submission was made with a public leaderboard score of **0.74256**.
+## ✅ Deliverables
+- ✔️ Code notebook and report
+- ✔️ Kaggle submission
+- ✔️ Leaderboard screenshot
+- ✔️ GitHub repo with all files
+
+## 📌 Author
+Chitralekha Gopalaiah  
+MSDS @ University of Colorado Boulder
+
